@@ -1,0 +1,31 @@
+{
+  "book_title": "虐文女主她反向攻略我",
+  "characters": {},
+  "context": {
+    "active_character_names": [],
+    "continuity_risks": [],
+    "long_term_constraints": [
+      "宿主视角第三人称限知；每个世界只有最后一章切女主视角",
+      "终局前不出现青梅、未来、救生舱、沈渡之名",
+      "原书虐点只拿来拆和吐槽，不正面铺陈受苦；每章至少一个笑点或爽点",
+      "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
+    ],
+    "next_chapter_commitments": [
+      "林迟绑定系统、被「赚钱」说动接任务，醒在许知意身上，当场截下温棠、撕掉替身合约"
+    ],
+    "position": {
+      "scene": "世界1·安和医院顶层",
+      "story_time": "世界1：许知意回国当晚，温棠签替身合约前",
+      "volume": "第一卷·救完就走，绝不加班",
+      "volume_start_chapter": 1
+    },
+    "recent_chapters": []
+  },
+  "foreshadow": {},
+  "imported_through_chapter": 0,
+  "last_committed_chapter": 0,
+  "schema_version": 4,
+  "state_revision": 0,
+  "timeline": {},
+  "wordcount_records": {}
+}
