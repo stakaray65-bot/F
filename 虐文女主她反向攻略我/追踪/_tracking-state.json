@@ -1,6 +1,42 @@
 {
   "book_title": "虐文女主她反向攻略我",
   "characters": {
+    "元昭": {
+      "abilities_resources": [
+        "东宫卫率秦戈与侍卫"
+      ],
+      "goal": "[待补充]",
+      "identity": "北燕太子，宁蘅和亲对象",
+      "knowledge": [
+        "漱玉轩女官会算账"
+      ],
+      "location": "东宫",
+      "open_threads": [
+        "盯漱玉轩"
+      ],
+      "relationships": [
+        "宁蘅：和亲公主，称她会喘气的人质",
+        "青梧（林迟）：争份例的女官"
+      ],
+      "state": "宫门冷遇宁蘅，派人盯漱玉轩"
+    },
+    "孙嬷嬷": {
+      "abilities_resources": [
+        "公主身边近侍"
+      ],
+      "goal": "[待补充]",
+      "identity": "南楚陪嫁嬷嬷",
+      "knowledge": [
+        "十七号箱"
+      ],
+      "location": "漱玉轩",
+      "open_threads": [],
+      "relationships": [
+        "宁蘅：看她眼神冷",
+        "青梧（林迟）：多事的女官"
+      ],
+      "state": "劝公主忍，对青梧起戒心"
+    },
     "宁蘅": {
       "abilities_resources": [
         "和亲公主身份",
@@ -11,15 +47,16 @@
       "knowledge": [
         "自己要嫁北燕太子"
       ],
-      "location": "临渡驿",
+      "location": "北燕宫漱玉轩",
       "open_threads": [
         "为什么知道青梧不吃芫荽"
       ],
       "relationships": [
-        "青梧（林迟）：陪嫁女官，她守着",
-        "嬷嬷：南楚跟来的人"
+        "青梧（林迟）：陪嫁女官，护着她",
+        "孙嬷嬷：南楚跟来的嬷嬷",
+        "元昭：未婚夫，当众称她人质"
       ],
-      "state": "守青梧三夜，挑净芫荽后自己也说不出缘由"
+      "state": "入宫受辱，问青梧怎么敢"
     },
     "宋启年": {
       "abilities_resources": [
@@ -42,8 +79,9 @@
     },
     "林迟": {
       "abilities_resources": [
-        "系统5468面板：苦难值100、倒计时45天",
+        "系统5468面板：苦难值94、倒计时44天、本世界报酬6万",
         "陪嫁女官身份与嫁妆册籍",
+        "和约副本与份例档",
         "掐指节算账",
         "累计报酬81万（暂不兑付）"
       ],
@@ -54,10 +92,11 @@
         "原书结局：宁蘅第45天秋狩前夜被当细作赐死",
         "任务完成后72小时内必须离开"
       ],
-      "location": "北燕边境临渡驿",
+      "location": "北燕宫漱玉轩",
       "open_threads": [
         "异常数值6与「活」字",
         "宁蘅怎么知道她不吃芫荽",
+        "十七号箱为什么那么重",
         "81万为什么暂不兑付"
       ],
       "relationships": [
@@ -65,13 +104,15 @@
         "宁蘅：守了她三夜的公主",
         "嬷嬷：看公主眼神冷"
       ],
-      "state": "后颈疼、右手抖，刚醒"
+      "state": "争下份例，被东宫盯上"
     }
   },
   "context": {
     "active_character_names": [
       "林迟",
-      "宁蘅"
+      "宁蘅",
+      "元昭",
+      "孙嬷嬷"
     ],
     "continuity_risks": [
       "林迟后颈疼、右手抖，读作穿越工伤",
@@ -84,19 +125,15 @@
       "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
     ],
     "next_chapter_commitments": [
-      "送亲队伍入北燕宫门，太子给下马威"
+      "宁蘅装病留青梧守夜；苦难值夜里突跳，林迟去量十七号箱"
     ],
     "position": {
-      "scene": "临渡驿偏间",
-      "story_time": "世界2第1天（七月廿四，死亡节点倒计时45天）",
+      "scene": "北燕宫漱玉轩",
+      "story_time": "世界2第2天夜（死亡节点倒计时44天）",
       "volume": "第一卷·救完就走，绝不加班",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 17,
-        "summary": "72小时最后一天，林迟照原主笔迹写下备忘留在抽屉里，陪温棠去市美术馆看《指节》展出，温棠请她吃面「算模特费」。倒计时归零，林迟说「温棠，好好画」后脱离，报酬81万入账；后颈剧痛手抖，异常数值1→6，乱码里亮出「活」字。"
-      },
       {
         "chapter": 18,
         "summary": "温棠视角：林迟离开后许知意本人醒来，不认识温棠，按抽屉里的备忘留她住下。许知意爱吃香菜，温棠由此认出「那个人，不是她」，却想不起那张脸，只记得几样零碎。她把白色小皮鞋收进鞋柜搬走，一个月后凭记忆画下那只手。"
@@ -104,6 +141,10 @@
       {
         "chapter": 19,
         "summary": "系统空间里，系统对81万结算含糊其辞、连催两遍休整，林迟拒绝后接入世界2：南楚公主宁蘅和亲北燕，原书第45天秋狩前夜被当细作赐死。林迟附身陪嫁女官青梧，在临渡驿醒来；宁蘅守了她三夜，把粥里的芫荽挑净，说「你不吃这个」，问谁告诉的，答「没人」。"
+      },
+      {
+        "chapter": 20,
+        "summary": "宫门无人迎，太子元昭称宁蘅「不过是个会喘气的人质」。交割时十七号箱四人才抬动。漱玉轩被克扣份例，林迟拿和约第六款算差额逼王管事补足。苦难值100→94，报酬6万；夜里秦卫率带两队侍卫盯住漱玉轩。"
       }
     ]
   },
@@ -251,12 +292,21 @@
       "status": "已回收",
       "summary": "茶室题字「淑仪雅正 严立鸿」——严立鸿在终评诬温棠抄袭，被揭穿后回避",
       "updated_chapter": 14
+    },
+    "F022": {
+      "id": "F022",
+      "importance": "高",
+      "planned_resolution_chapter": 21,
+      "planted_chapter": 20,
+      "status": "已埋",
+      "summary": "嫁妆十七号箱四人才抬动，韦从简说「云锦压秤」打圆场",
+      "updated_chapter": 20
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 19,
+  "last_committed_chapter": 20,
   "schema_version": 4,
-  "state_revision": 21,
+  "state_revision": 22,
   "timeline": {
     "E001": {
       "characters": [
@@ -612,6 +662,22 @@
       "reveal_status": "已揭示",
       "story_time": "世界2第1天（七月廿四）",
       "updated_chapter": 19
+    },
+    "E025": {
+      "characters": [
+        "林迟",
+        "宁蘅",
+        "元昭",
+        "孙嬷嬷"
+      ],
+      "first_recorded_chapter": 20,
+      "id": "E025",
+      "objective_fact": "宁蘅入北燕宫，居漱玉轩；份例按和约第六款补足；东宫派秦戈带两队侍卫看守",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 20,
+      "reveal_status": "已揭示",
+      "story_time": "世界2第2天",
+      "updated_chapter": 20
     }
   },
   "wordcount_records": {
@@ -754,6 +820,18 @@
         "min": 2000
       },
       "body_sha256": "ae57123d5adc4a75819ff68aa7a777dcb8acaff55c221ed3ca95d108616537f7",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2300
+    },
+    "20": {
+      "actual": 2419,
+      "author_range": {
+        "max": 2500,
+        "min": 2000
+      },
+      "body_sha256": "4b9cefde719503914c20df3793455b84513538b62978e13392b9720fcfefbadc",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
