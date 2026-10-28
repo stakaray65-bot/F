@@ -22,6 +22,25 @@
       ],
       "state": "代签被顶回，笑着收手，排期撤销"
     },
+    "宋启年": {
+      "abilities_resources": [
+        "松间画廊"
+      ],
+      "goal": "顺着上面的意思踩温棠",
+      "identity": "松间画廊老板",
+      "knowledge": [
+        "许小姐护着温棠"
+      ],
+      "location": "松间画廊",
+      "open_threads": [
+        "电话打给了谁"
+      ],
+      "relationships": [
+        "温棠：寄售画家，被他羞辱",
+        "林迟（许知意）：当众压了他"
+      ],
+      "state": "被逼赔钱，记仇，事后打电话"
+    },
     "林迟": {
       "abilities_resources": [
         "系统5468面板：苦难值72、倒计时约34天、报酬28万",
@@ -59,7 +78,8 @@
         "白色小皮鞋",
         "速写本，夹着那页初配报告和作废的替身合约",
         "灰色旧卫衣、蓝色颜料",
-        "三幅画寄售在松间画廊"
+        "三幅画已从松间画廊拉回",
+        "画廊赔付5040元"
       ],
       "goal": "留在林迟身边",
       "identity": "世界1任务对象，长相酷似许知意的美院孤女，受陆家资助",
@@ -77,7 +97,7 @@
         "陆砚深：资助协议的甲方，没认出卸了妆的她",
         "周敬：拿她的血做配型的医生"
       ],
-      "state": "被流言和画室辞退夹击，没了代课收入；想认债被按住"
+      "state": "拿到画廊赔付5040元，第一次说「第一笔钱」；主动要陪林迟透析"
     },
     "陆夫人": {
       "abilities_resources": [
@@ -142,19 +162,15 @@
       "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
     ],
     "next_chapter_commitments": [
-      "林迟陪温棠去松间画廊拿画"
+      "明天透析日，温棠第一次陪林迟去血透中心"
     ],
     "position": {
-      "scene": "栖湖苑许知意公寓",
-      "story_time": "世界1第8天夜（死亡节点倒计时约34天，律师函期限至第28天）",
+      "scene": "松间画廊回程车上",
+      "story_time": "世界1第9天（死亡节点倒计时约33天）",
       "volume": "第一卷·救完就走，绝不加班",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 4,
-        "summary": "林迟出院住进许知意在栖湖苑的公寓，赶温棠回学校；当晚温棠拖着行李箱上门（陆家知道她宿舍），此后寸步不离。温棠递来欠条清单，林迟算出还陆家30万要十二年半，撕了清单「我这儿不收账」。苦难值卡在72，系统说其余在任务对象自身状态。"
-      },
       {
         "chapter": 5,
         "summary": "陆砚深上门，第一眼没认出洗掉痣、换回旧卫衣的温棠；他提出许知意搬回陆家老宅、温棠回学校，林迟拒绝，算三十万资助买的是什么，说出「我不要任何人替我活」。陆砚深留下「我妈那边，不会就这么算了」。下午温棠签收受陆家委托的追讨资助款律师函。"
@@ -162,6 +178,10 @@
       {
         "chapter": 6,
         "summary": "律师函拆开：陆家按资助协议第七条追讨资助款30万加违约金90万共120万，限二十天；同日美院表白墙流言起、温棠被画室辞退。陆夫人电话里说「一个替身，这辈子都还不清陆家的钱」，温棠要去签分期，林迟按住她：「这钱她不欠。」夜里松间画廊通知退画。"
+      },
+      {
+        "chapter": 7,
+        "summary": "林迟陪温棠去松间画廊拿画，老板宋启年当众羞辱「替身画的东西也配挂墙」，认出许小姐后变脸；林迟不买画，按寄售合同第五条逼他当场赔温棠5040元，画完好退还。苦难值仍72。"
       }
     ]
   },
@@ -249,9 +269,9 @@
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 6,
+  "last_committed_chapter": 7,
   "schema_version": 4,
-  "state_revision": 8,
+  "state_revision": 9,
   "timeline": {
     "E001": {
       "characters": [
@@ -412,6 +432,21 @@
       "reveal_status": "已揭示",
       "story_time": "世界1第8天",
       "updated_chapter": 6
+    },
+    "E012": {
+      "characters": [
+        "林迟",
+        "温棠",
+        "宋启年"
+      ],
+      "first_recorded_chapter": 7,
+      "id": "E012",
+      "objective_fact": "松间画廊宋启年当众羞辱温棠后被林迟按寄售合同逼赔5040元；宋启年事后打电话向人汇报",
+      "reader_knowledge": "读者不知他打给谁",
+      "reveal_chapter": 7,
+      "reveal_status": "部分揭示",
+      "story_time": "世界1第9天",
+      "updated_chapter": 7
     }
   },
   "wordcount_records": {
@@ -482,6 +517,18 @@
         "min": 2000
       },
       "body_sha256": "b95be92379b98216973682dc54c97401aadb6fef066d78428679cd4e51a71ed4",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2300
+    },
+    "7": {
+      "actual": 2369,
+      "author_range": {
+        "max": 2500,
+        "min": 2000
+      },
+      "body_sha256": "682fe3c5f3f6f990a701ff14f05a5ae428ee6013646fa8b94daeb3160a9c43d6",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
