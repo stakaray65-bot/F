@@ -43,7 +43,7 @@
       "open_threads": [
         "面板角落那个系统不认的「1」",
         "温棠心里压着的是什么",
-        "律师函里写了什么",
+        "120万律师函二十天期限",
         "陆夫人要做什么"
       ],
       "relationships": [
@@ -52,14 +52,14 @@
         "陆砚深：当面撕破，拒绝回老宅",
         "周敬：拆了他的代签"
       ],
-      "state": "和陆砚深当面撕破，苦难值仍72"
+      "state": "和陆夫人撕破，苦难值仍72"
     },
     "温棠": {
       "abilities_resources": [
         "白色小皮鞋",
         "速写本，夹着那页初配报告和作废的替身合约",
         "灰色旧卫衣、蓝色颜料",
-        "画室代课，月入两千"
+        "三幅画寄售在松间画廊"
       ],
       "goal": "留在林迟身边",
       "identity": "世界1任务对象，长相酷似许知意的美院孤女，受陆家资助",
@@ -77,7 +77,27 @@
         "陆砚深：资助协议的甲方，没认出卸了妆的她",
         "周敬：拿她的血做配型的医生"
       ],
-      "state": "签收了写给自己的律师函；坐得离林迟更近"
+      "state": "被流言和画室辞退夹击，没了代课收入；想认债被按住"
+    },
+    "陆夫人": {
+      "abilities_resources": [
+        "律所",
+        "资助协议原件"
+      ],
+      "goal": "让温棠认债、把许知意拉回陆家",
+      "identity": "陆砚深之母，本名韩淑仪，陆家决策者",
+      "knowledge": [
+        "许知意护着温棠"
+      ],
+      "location": "陆家老宅",
+      "open_threads": [
+        "二十天期限"
+      ],
+      "relationships": [
+        "许知意（林迟）：被她挂了电话",
+        "温棠：当替身和供体看"
+      ],
+      "state": "借律师函施压，首次在电话里出声"
     },
     "陆砚深": {
       "abilities_resources": [
@@ -122,19 +142,15 @@
       "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
     ],
     "next_chapter_commitments": [
-      "拆开律师函，交代追讨资助款与违约金的依据，陆家开始放流言"
+      "林迟陪温棠去松间画廊拿画"
     ],
     "position": {
       "scene": "栖湖苑许知意公寓",
-      "story_time": "世界1第8天下午（死亡节点倒计时约34天）",
+      "story_time": "世界1第8天夜（死亡节点倒计时约34天，律师函期限至第28天）",
       "volume": "第一卷·救完就走，绝不加班",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 3,
-        "summary": "林迟在医务处以许知意本人身份书面拒绝移植、撤销排期，一句「我未婚，他不算家属」顶回周敬的代签；陆砚深以她按时透析为条件亲笔作废备份合约。苦难值100→72、报酬28万；温棠不肯两清，系统提醒任务完成72小时内脱离。"
-      },
       {
         "chapter": 4,
         "summary": "林迟出院住进许知意在栖湖苑的公寓，赶温棠回学校；当晚温棠拖着行李箱上门（陆家知道她宿舍），此后寸步不离。温棠递来欠条清单，林迟算出还陆家30万要十二年半，撕了清单「我这儿不收账」。苦难值卡在72，系统说其余在任务对象自身状态。"
@@ -142,6 +158,10 @@
       {
         "chapter": 5,
         "summary": "陆砚深上门，第一眼没认出洗掉痣、换回旧卫衣的温棠；他提出许知意搬回陆家老宅、温棠回学校，林迟拒绝，算三十万资助买的是什么，说出「我不要任何人替我活」。陆砚深留下「我妈那边，不会就这么算了」。下午温棠签收受陆家委托的追讨资助款律师函。"
+      },
+      {
+        "chapter": 6,
+        "summary": "律师函拆开：陆家按资助协议第七条追讨资助款30万加违约金90万共120万，限二十天；同日美院表白墙流言起、温棠被画室辞退。陆夫人电话里说「一个替身，这辈子都还不清陆家的钱」，温棠要去签分期，林迟按住她：「这钱她不欠。」夜里松间画廊通知退画。"
       }
     ]
   },
@@ -158,11 +178,11 @@
     "F002": {
       "id": "F002",
       "importance": "高",
-      "planned_resolution_chapter": 44,
+      "planned_resolution_chapter": 34,
       "planted_chapter": 1,
       "status": "已埋",
       "summary": "系统答「该数值不归本系统监测」答得太快，像早就等着",
-      "updated_chapter": 1
+      "updated_chapter": 6
     },
     "F003": {
       "id": "F003",
@@ -221,17 +241,17 @@
     "F020": {
       "id": "F020",
       "importance": "高",
-      "planned_resolution_chapter": 6,
+      "planned_resolution_chapter": 11,
       "planted_chapter": 5,
       "status": "已埋",
-      "summary": "陆砚深「我妈那边，不会就这么算了」，律师函受陆家委托，陆夫人开始出手",
-      "updated_chapter": 5
+      "summary": "陆夫人借律师函出手：按资助协议第七条追讨120万，限二十天",
+      "updated_chapter": 6
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 5,
+  "last_committed_chapter": 6,
   "schema_version": 4,
-  "state_revision": 7,
+  "state_revision": 8,
   "timeline": {
     "E001": {
       "characters": [
@@ -377,6 +397,21 @@
       "reveal_status": "部分揭示",
       "story_time": "世界1第8天",
       "updated_chapter": 5
+    },
+    "E011": {
+      "characters": [
+        "林迟",
+        "温棠",
+        "陆夫人"
+      ],
+      "first_recorded_chapter": 6,
+      "id": "E011",
+      "objective_fact": "陆家律师函追讨资助款与违约金共120万、二十日内付清（至第28天）；美院表白墙流言起，温棠被画室辞退；松间画廊通知退画",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 6,
+      "reveal_status": "已揭示",
+      "story_time": "世界1第8天",
+      "updated_chapter": 6
     }
   },
   "wordcount_records": {
@@ -435,6 +470,18 @@
         "min": 2000
       },
       "body_sha256": "9d019ad465465a5e1219e837aa383356b42ba4dc02f1e4bf64871e09bdadcb3e",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2300
+    },
+    "6": {
+      "actual": 2349,
+      "author_range": {
+        "max": 2500,
+        "min": 2000
+      },
+      "body_sha256": "b95be92379b98216973682dc54c97401aadb6fef066d78428679cd4e51a71ed4",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
