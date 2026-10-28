@@ -1,6 +1,26 @@
 {
   "book_title": "虐文女主她反向攻略我",
   "characters": {
+    "周敬": {
+      "abilities_resources": [
+        "蓝色文件夹里的初配报告",
+        "许知意回国后的治疗方案归他跟"
+      ],
+      "goal": "按陆家意思推进配型与手术",
+      "identity": "陆家私人医生，安和医院肾内科专家号",
+      "knowledge": [
+        "温棠与许知意初配相合"
+      ],
+      "location": "安和医院",
+      "open_threads": [
+        "明天的术前检查"
+      ],
+      "relationships": [
+        "陆家：顺着办事",
+        "许知意（林迟）：被当面驳了方案"
+      ],
+      "state": "被拒后笑着改期，排期不动，没当回事"
+    },
     "林迟": {
       "abilities_resources": [
         "系统5468面板：苦难值、倒计时、报酬、世界序号",
@@ -12,48 +32,59 @@
       "knowledge": [
         "只记得自己叫林迟",
         "原书结局：温棠第41天死在手术台",
-        "律师手里还有合约备份"
+        "温棠的血上月已被抽去初配",
+        "术前检查改到明天，配型排期没取消",
+        "温棠速写本里夹着一页安和医院的纸",
+        "自己不吃香菜"
       ],
       "location": "安和医院顶层许知意病房",
       "open_threads": [
-        "面板角落那个系统不认的「1」"
+        "面板角落那个系统不认的「1」",
+        "温棠为什么知道她不吃香菜",
+        "明天的术前检查"
       ],
       "relationships": [
         "系统5468：讨价还价的雇佣关系",
-        "温棠：她护着人，人家防着她",
-        "陆砚深：名义未婚夫，以为她醒来吃醋"
+        "温棠：她护着人，温棠开始正眼看她",
+        "陆砚深：名义未婚夫，认定她病糊涂了",
+        "周敬：当面驳了他的方案"
       ],
-      "state": "刚醒体虚，左手背拔针渗血，光脚闯过一趟"
+      "state": "透析四小时后虚脱，腿软站不住；当众拒收器官"
     },
     "温棠": {
       "abilities_resources": [
-        "白色小皮鞋，睡前鞋尖对齐摆好"
+        "白色小皮鞋",
+        "速写本，夹着一页初配报告",
+        "美院学生，指甲缝有蓝色颜料"
       ],
-      "goal": "本章被动，只求不被白月光羞辱",
+      "goal": "留着那页报告，弄清白月光是不是真不要她的肾",
       "identity": "世界1任务对象，长相酷似许知意的美院孤女，受陆家资助",
       "knowledge": [
-        "不知道医疗配合条款通向哪里",
-        "只当自己是替身"
+        "医疗配合条款就是配型",
+        "血样是上月资助体检时抽的",
+        "许知意资料写着爱吃香菜"
       ],
       "location": "许知意病房陪护床",
       "open_threads": [
         "合约备份还在"
       ],
       "relationships": [
-        "林迟（许知意）：当她是来演给陆砚深看、来羞辱自己的人",
-        "陆砚深：替身合约的甲方"
+        "林迟（许知意）：开始怀疑白月光不是在演",
+        "陆砚深：替身合约甲方",
+        "周敬：拿她的血做配型的医生"
       ],
-      "state": "签字被截，带刺戒备，背对林迟躺下"
+      "state": "知道自己是供体，第一次正眼看林迟；替她挑净香菜后自己也愣住"
     },
     "陆砚深": {
       "abilities_resources": [
         "陆家对安和医院有股份",
         "律师与合约备份"
       ],
-      "goal": "护住刚醒的许知意，签约先缓到明天",
+      "goal": "让许知意尽快做移植",
       "identity": "陆家继承人，许知意的未婚夫，替身合约甲方",
       "knowledge": [
-        "许知意醒了，撕了合约，带走温棠"
+        "许知意拒绝移植、改回透析",
+        "检查改到明天"
       ],
       "location": "安和医院顶层会议室",
       "open_threads": [
@@ -63,18 +94,19 @@
         "许知意（林迟）：以为她病中吃醋",
         "温棠：替身"
       ],
-      "state": "心疼她光脚流血，让步不签"
+      "state": "一夜没睡，认定许知意病糊涂了，压着火让步"
     }
   },
   "context": {
     "active_character_names": [
       "林迟",
       "温棠",
-      "陆砚深"
+      "陆砚深",
+      "周敬"
     ],
     "continuity_risks": [
-      "温棠的鞋是白色小皮鞋，睡前鞋尖对齐摆在床脚",
-      "林迟左手背拔过留置针，有血迹未处理"
+      "温棠的白色小皮鞋、蓝色颜料、速写本里夹着的那页安和抬头报告",
+      "林迟这具身体规律透析：一周三次、每次四小时，在三楼血透中心"
     ],
     "long_term_constraints": [
       "宿主视角第三人称限知；每个世界只有最后一章切女主视角",
@@ -83,11 +115,11 @@
       "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
     ],
     "next_chapter_commitments": [
-      "开头先回应林迟醒来看那个「1」还在不在，再接陆家清晨来推进配型"
+      "开头林迟带着对温棠的疑惑，随即周敬第二次来人带温棠去检查，进入合约作废、配型取消的硬仗"
     ],
     "position": {
-      "scene": "安和医院顶层东头许知意病房",
-      "story_time": "世界1第1天深夜（死亡节点倒计时41天）",
+      "scene": "安和医院顶层许知意病房",
+      "story_time": "世界1第2天晚（死亡节点倒计时40天）",
       "volume": "第一卷·救完就走，绝不加班",
       "volume_start_chapter": 1
     },
@@ -95,6 +127,10 @@
       {
         "chapter": 1,
         "summary": "林迟被「一个世界约80万」说动入职，醒在许知意身上，拔针光脚闯进会议室撕了替身合约、把温棠带回病房；苦难值仍是100，律师手里还有备份；面板角落出现系统不认的「1」。"
+      },
+      {
+        "chapter": 2,
+        "summary": "周敬拿出用温棠资助体检血做的初配报告催术前检查，林迟当众拒绝移植、改回透析，检查只推到明天、排期未取消，苦难值仍100；温棠藏下一页报告，晚饭替林迟挑净香菜说「你不吃这个」。"
       }
     ]
   },
@@ -123,14 +159,41 @@
       "planned_resolution_chapter": null,
       "planted_chapter": 1,
       "status": "已埋",
-      "summary": "林迟发现自己只记得名字时，下意识摸了一下后颈",
-      "updated_chapter": 1
+      "summary": "林迟慌时或失控后下意识摸后颈（第1、2章各一次）",
+      "updated_chapter": 2
+    },
+    "F004": {
+      "id": "F004",
+      "importance": "高",
+      "planned_resolution_chapter": 19,
+      "planted_chapter": 2,
+      "status": "已埋",
+      "summary": "温棠背过许知意爱吃香菜，却下意识替林迟挑净香菜，说「你不吃这个」，问谁告诉的答「没人」",
+      "updated_chapter": 2
+    },
+    "F005": {
+      "id": "F005",
+      "importance": "中",
+      "planned_resolution_chapter": null,
+      "planted_chapter": 2,
+      "status": "已埋",
+      "summary": "林迟拒收器官时火气过激、挥落文件夹，自己也不知这股火从哪来",
+      "updated_chapter": 2
+    },
+    "F006": {
+      "id": "F006",
+      "importance": "高",
+      "planned_resolution_chapter": 9,
+      "planted_chapter": 2,
+      "status": "已埋",
+      "summary": "温棠从周敬蓝色文件夹里藏下一页初配报告，夹在速写本里，林迟看见只说「收好」",
+      "updated_chapter": 2
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 1,
+  "last_committed_chapter": 2,
   "schema_version": 4,
-  "state_revision": 2,
+  "state_revision": 3,
   "timeline": {
     "E001": {
       "characters": [
@@ -160,6 +223,51 @@
       "reveal_status": "未揭示",
       "story_time": "世界1第1天夜",
       "updated_chapter": 1
+    },
+    "E003": {
+      "characters": [
+        "周敬",
+        "温棠",
+        "林迟",
+        "陆砚深"
+      ],
+      "first_recorded_chapter": 2,
+      "id": "E003",
+      "objective_fact": "周敬用温棠上月资助体检时留的血样做了初配，报告称初配相合；陆家把术前检查提前",
+      "reader_knowledge": "读者与温棠同时得知她的血早被抽去配型",
+      "reveal_chapter": 2,
+      "reveal_status": "已揭示",
+      "story_time": "世界1第2天早",
+      "updated_chapter": 2
+    },
+    "E004": {
+      "characters": [
+        "林迟",
+        "陆砚深",
+        "周敬"
+      ],
+      "first_recorded_chapter": 2,
+      "id": "E004",
+      "objective_fact": "林迟当众拒绝移植、改回透析；术前检查推到明天，配型排期与合约备份仍在",
+      "reader_knowledge": "读者知道只挡住了一天",
+      "reveal_chapter": 2,
+      "reveal_status": "已揭示",
+      "story_time": "世界1第2天早",
+      "updated_chapter": 2
+    },
+    "E005": {
+      "characters": [
+        "温棠",
+        "林迟"
+      ],
+      "first_recorded_chapter": 2,
+      "id": "E005",
+      "objective_fact": "温棠下意识替林迟挑净香菜，源于她身上碎片残留的旧记忆",
+      "reader_knowledge": "读者只觉温棠不对劲，不知原因",
+      "reveal_chapter": null,
+      "reveal_status": "未揭示",
+      "story_time": "世界1第2天晚",
+      "updated_chapter": 2
     }
   },
   "wordcount_records": {
@@ -170,6 +278,18 @@
         "min": 2000
       },
       "body_sha256": "c127937b8564ef76022793d464a384b199013fe2f63d89fb6c888dae6a834b6c",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2300
+    },
+    "2": {
+      "actual": 2440,
+      "author_range": {
+        "max": 2500,
+        "min": 2000
+      },
+      "body_sha256": "ae57123d5adc4a75819ff68aa7a777dcb8acaff55c221ed3ca95d108616537f7",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
