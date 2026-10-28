@@ -11,7 +11,7 @@
       "knowledge": [
         "许知意手里有化验单与转诊件"
       ],
-      "location": "安和医院",
+      "location": "停职中",
       "open_threads": [
         "明天的术前检查"
       ],
@@ -19,7 +19,7 @@
         "陆家：顺着办事",
         "许知意（林迟）：被当面驳了方案"
       ],
-      "state": "被当众揭穿，被陆砚深请走"
+      "state": "被安和停职调查"
     },
     "宋启年": {
       "abilities_resources": [
@@ -60,8 +60,8 @@
       "open_threads": [
         "面板角落那个系统不认的「1」",
         "温棠心里压着的是什么",
-        "温棠报不报画展",
-        "茶室题字的严立鸿是谁"
+        "评委严立鸿与陆夫人有旧",
+        "下周婚约怎么了结"
       ],
       "relationships": [
         "系统5468：讨价还价的雇佣关系",
@@ -69,7 +69,7 @@
         "陆砚深：当面撕破，拒绝回老宅",
         "周敬：拆了他的代签"
       ],
-      "state": "苦难值45，推温棠报画展"
+      "state": "苦难值45，倒计时10天；陆砚深的婚约压到下周"
     },
     "温棠": {
       "abilities_resources": [
@@ -95,7 +95,7 @@
         "陆砚深：资助协议的甲方，没认出卸了妆的她",
         "周敬：拿她的血做配型的医生"
       ],
-      "state": "第一次为自己画画，开始画林迟的手"
+      "state": "署本名报画展、入围终评；陆砚深第一次叫她名字"
     },
     "许家父母": {
       "abilities_resources": [
@@ -144,11 +144,11 @@
         "陆家对安和医院有股份",
         "律师与合约备份"
       ],
-      "goal": "另想办法救许知意",
+      "goal": "和许知意重新开始",
       "identity": "陆家继承人，许知意的未婚夫，替身合约甲方",
       "knowledge": [
-        "周敬夸大许知意病情与透析",
-        "配型是母亲委托的"
+        "周敬已停职调查",
+        "温棠是被差点害死的人"
       ],
       "location": "陆家",
       "open_threads": [
@@ -159,7 +159,7 @@
         "温棠：一眼没认出卸了替身打扮的她",
         "母亲：警告许知意她不会罢休"
       ],
-      "state": "核实后知道差点为假报告害死温棠，请走周敬"
+      "state": "瘦了一圈，来道歉，想重提婚约被压到下周"
     }
   },
   "context": {
@@ -183,19 +183,15 @@
       "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
     ],
     "next_chapter_commitments": [
-      "温棠决定用本名「温棠」报新苗青年美术展；陆砚深来道歉"
+      "新苗青年美术展终评，温棠被诬抄袭，林迟按简章第九条要求现场创作"
     ],
     "position": {
-      "scene": "栖湖苑许知意公寓",
-      "story_time": "世界1第25天夜（死亡节点倒计时16天）",
+      "scene": "栖湖苑许知意公寓阳台",
+      "story_time": "世界1第31天（死亡节点倒计时10天）",
       "volume": "第一卷·救完就走，绝不加班",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 10,
-        "summary": "林迟复印盖章病历留证；周敬来电试探。林迟赴陆家老宅喝茶，温棠被管家拦在门外等。陆夫人韩淑仪拿婚期换撤律师函，林迟不替原主点头婚期，只应下后天家宴，点名周敬和陆砚深到场。墙上题字落款「淑仪雅正 严立鸿」。散场温棠给她绕围巾。"
-      },
       {
         "chapter": 11,
         "summary": "家宴上林迟当众摆出化验单 eGFR 38 对病历「5期」和转诊件，算出被多透7次、两万六千六；温棠亲手递出配型页。陆砚深核实，许父拍桌，陆夫人撤函、资助协议两清。苦难值72→45，报酬55万。"
@@ -203,6 +199,10 @@
       {
         "chapter": 12,
         "summary": "家宴余波后，温棠第一次为自己画画，画的是林迟掐指节的手；林迟说「画我得收钱」。三年里温棠只画陆家让画的。林迟刷到新苗青年美术展简章，打印出来推她报名，但不替她找关系开后门；夜里温棠当着她的面落下第一笔。"
+      },
+      {
+        "chapter": 13,
+        "summary": "温棠在导员办公室署本名「温棠」报新苗青年美术展，作品《指节》；林迟留意到简章第九条。校门口陆砚深瘦了一圈，第一次叫温棠的名字道歉，说周敬已停职调查，想重提婚约，被林迟压到下周。入围通知里评委名单第四行是严立鸿，正是茶室题字的落款。"
       }
     ]
   },
@@ -308,18 +308,18 @@
     },
     "F021": {
       "id": "F021",
-      "importance": "中",
-      "planned_resolution_chapter": 13,
+      "importance": "高",
+      "planned_resolution_chapter": 14,
       "planted_chapter": 10,
       "status": "已埋",
-      "summary": "陆家老宅茶室题字落款「淑仪雅正 严立鸿」，正文草书林迟认不出",
-      "updated_chapter": 10
+      "summary": "茶室题字落款「淑仪雅正 严立鸿」——严立鸿出现在画展评委名单第四行",
+      "updated_chapter": 13
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 12,
+  "last_committed_chapter": 13,
   "schema_version": 4,
-  "state_revision": 14,
+  "state_revision": 15,
   "timeline": {
     "E001": {
       "characters": [
@@ -572,6 +572,21 @@
       "reveal_status": "已揭示",
       "story_time": "世界1第25天",
       "updated_chapter": 12
+    },
+    "E018": {
+      "characters": [
+        "温棠",
+        "林迟",
+        "陆砚深"
+      ],
+      "first_recorded_chapter": 13,
+      "id": "E018",
+      "objective_fact": "温棠以本名报名入围新苗青年美术展终评，终评在市美术馆报告厅当场公开评审；评委严立鸿与陆夫人有旧",
+      "reader_knowledge": "读者知道严立鸿与陆夫人认识",
+      "reveal_chapter": 13,
+      "reveal_status": "部分揭示",
+      "story_time": "世界1第27-31天",
+      "updated_chapter": 13
     }
   },
   "wordcount_records": {
@@ -622,6 +637,18 @@
       "resolution": "within_user_band",
       "status": "internal_pass",
       "target": 2200
+    },
+    "13": {
+      "actual": 2394,
+      "author_range": {
+        "max": 2500,
+        "min": 2000
+      },
+      "body_sha256": "322994aa991b2f6521925eba4a70ddd46270904939ee2814d2e6e84d95f5e4f1",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2300
     },
     "2": {
       "actual": 2440,
