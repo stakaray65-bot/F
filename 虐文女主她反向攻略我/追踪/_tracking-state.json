@@ -42,8 +42,8 @@
     },
     "林迟": {
       "abilities_resources": [
-        "系统5468面板：苦难值19、报酬约81万、脱离倒计时",
-        "许知意正主身份与签名（照资料描）",
+        "系统5468面板",
+        "累计报酬81万",
         "掐指节算账"
       ],
       "goal": "走之前把温棠和原主的后路铺好",
@@ -56,10 +56,10 @@
         "许知意实为三期b，透析被周敬多安排",
         "律师函已撤、资助协议两清"
       ],
-      "location": "栖湖苑许知意公寓",
+      "location": "脱离中",
       "open_threads": [
-        "面板角落那个系统不认的「1」",
-        "离开后温棠怎么办"
+        "异常数值变成6、解出「活」字",
+        "后颈为什么疼"
       ],
       "relationships": [
         "系统5468：讨价还价的雇佣关系",
@@ -67,16 +67,15 @@
         "陆砚深：当面撕破，拒绝回老宅",
         "周敬：拆了他的代签"
       ],
-      "state": "任务完成，72小时倒计时中；苦难值19，报酬约81万"
+      "state": "后颈剧痛、手抖，刚脱离世界1"
     },
     "温棠": {
       "abilities_resources": [
         "白色小皮鞋",
         "红毛线围巾",
         "速写本",
-        "灰色旧卫衣、蓝色颜料",
-        "《指节》与过程稿",
-        "金奖奖金五万（租房一年多）"
+        "《指节》在市美术馆展出",
+        "奖金余额45164元"
       ],
       "goal": "靠自己画下去",
       "identity": "世界1任务对象，长相酷似许知意的美院孤女，受陆家资助",
@@ -93,7 +92,7 @@
         "陆砚深：资助协议的甲方，没认出卸了妆的她",
         "周敬：拿她的血做配型的医生"
       ],
-      "state": "心结放下，问出「你会走吗」，得到实话；攥着林迟袖子睡着"
+      "state": "林迟脱离，手里空攥着"
     },
     "许家父母": {
       "abilities_resources": [
@@ -180,19 +179,15 @@
       "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
     ],
     "next_chapter_commitments": [
-      "72小时最后一天：林迟给原主留备忘、陪温棠看《指节》展出，倒计时归零时离开"
+      "世界1最后一章切温棠视角：许知意醒来不认识她，温棠从香菜认出那个人不是她"
     ],
     "position": {
-      "scene": "栖湖苑许知意公寓",
-      "story_time": "世界1第42天夜（脱离倒计时71小时）",
+      "scene": "栖湖苑许知意公寓→系统空间",
+      "story_time": "世界1第45天夜（已脱离）",
       "volume": "第一卷·救完就走，绝不加班",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 14,
-        "summary": "画展终评，评委严立鸿诬温棠抄袭；林迟按简章第九条要求现场创作、自己当模特，温棠当场画完并摊出带日期的过程稿，造假账号被揭穿。温棠获金奖（奖金五万），严立鸿回避。苦难值45→33，报酬67万。陆砚深约后天谈婚期。"
-      },
       {
         "chapter": 15,
         "summary": "原书手术日，林迟一早关煤气、锁门、拿黄历把温棠拦在家。她按原主没寄出的信当着陆砚深解除婚约，许母电话里说「听你的」；陆砚深留下「你不是她。她从来不跟我说不。」离开。零点死亡节点平安度过，苦难值33→23，林迟数着还差四点。"
@@ -200,6 +195,10 @@
       {
         "chapter": 16,
         "summary": "林迟替温棠租好美院后街单间、透析改回一周一次、冰箱贴满备忘。温棠隔门问「你会走吗」，林迟答「会。但你不用像谁，也能被留下」，温棠自己撕了合约。苦难值23→19，任务完成，72小时倒计时开始。"
+      },
+      {
+        "chapter": 17,
+        "summary": "72小时最后一天，林迟照原主笔迹写下备忘留在抽屉里，陪温棠去市美术馆看《指节》展出，温棠请她吃面「算模特费」。倒计时归零，林迟说「温棠，好好画」后脱离，报酬81万入账；后颈剧痛手抖，异常数值1→6，乱码里亮出「活」字。"
       }
     ]
   },
@@ -207,11 +206,11 @@
     "F001": {
       "id": "F001",
       "importance": "高",
-      "planned_resolution_chapter": 17,
+      "planned_resolution_chapter": 34,
       "planted_chapter": 1,
       "status": "已埋",
-      "summary": "只有林迟看得见的异常数值：乱码标签加数字「1」，不在任务清单里",
-      "updated_chapter": 1
+      "summary": "只有林迟看得见的异常数值：第17章 1→6，乱码里解出「活」字",
+      "updated_chapter": 17
     },
     "F002": {
       "id": "F002",
@@ -276,6 +275,15 @@
       "summary": "温棠画林迟掐指节的手",
       "updated_chapter": 12
     },
+    "F009": {
+      "id": "F009",
+      "importance": "高",
+      "planned_resolution_chapter": 34,
+      "planted_chapter": 17,
+      "status": "已埋",
+      "summary": "碎片收回那一刻后颈剧痛、手抖（林迟读作穿越工伤）",
+      "updated_chapter": 17
+    },
     "F017": {
       "id": "F017",
       "importance": "高",
@@ -323,9 +331,9 @@
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 16,
+  "last_committed_chapter": 17,
   "schema_version": 4,
-  "state_revision": 18,
+  "state_revision": 19,
   "timeline": {
     "E001": {
       "characters": [
@@ -639,6 +647,20 @@
       "reveal_status": "已揭示",
       "story_time": "世界1第42天夜",
       "updated_chapter": 16
+    },
+    "E022": {
+      "characters": [
+        "林迟",
+        "温棠"
+      ],
+      "first_recorded_chapter": 17,
+      "id": "E022",
+      "objective_fact": "林迟脱离世界1，第一块碎片收回；碎片经林迟神经通路转回现实，造成后颈剧痛",
+      "reader_knowledge": "读者只看到后颈剧痛和数值变化",
+      "reveal_chapter": null,
+      "reveal_status": "未揭示",
+      "story_time": "世界1第45天",
+      "updated_chapter": 17
     }
   },
   "wordcount_records": {
@@ -733,6 +755,18 @@
         "min": 2000
       },
       "body_sha256": "28b8a9a61c8d861e800b3c85a8bbe01fdc5a34cf5bcec137c9b29fb5d27422f8",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    },
+    "17": {
+      "actual": 2274,
+      "author_range": {
+        "max": 2500,
+        "min": 2000
+      },
+      "body_sha256": "4f9eec1705f1fc1b48aab52a975eb96d5e207a1a19877eaf0b691814c1d88c4b",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
