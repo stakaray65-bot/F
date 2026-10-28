@@ -130,7 +130,7 @@
   "imported_through_chapter": 0,
   "last_committed_chapter": 1,
   "schema_version": 4,
-  "state_revision": 1,
+  "state_revision": 2,
   "timeline": {
     "E001": {
       "characters": [
@@ -164,12 +164,12 @@
   },
   "wordcount_records": {
     "1": {
-      "actual": 2362,
+      "actual": 2497,
       "author_range": {
         "max": 2500,
         "min": 2000
       },
-      "body_sha256": "fb90c6ab68c61ff790290c7bfa98a0b4046270f96069b5097ccd4a04b4b9d466",
+      "body_sha256": "c127937b8564ef76022793d464a384b199013fe2f63d89fb6c888dae6a834b6c",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
