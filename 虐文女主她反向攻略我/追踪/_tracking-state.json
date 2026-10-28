@@ -8,7 +8,8 @@
       "goal": "[待补充]",
       "identity": "北燕太子，宁蘅和亲对象",
       "knowledge": [
-        "漱玉轩女官会算账"
+        "孙嬷嬷收南楚使臣银两",
+        "青梧会对账"
       ],
       "location": "东宫",
       "open_threads": [
@@ -18,7 +19,7 @@
         "宁蘅：和亲公主，称她会喘气的人质",
         "青梧（林迟）：争份例的女官"
       ],
-      "state": "宫门冷遇宁蘅，派人盯漱玉轩"
+      "state": "押走孙嬷嬷，盯上青梧"
     },
     "孙嬷嬷": {
       "abilities_resources": [
@@ -29,13 +30,15 @@
       "knowledge": [
         "以为密信还在妆奁暗格"
       ],
-      "location": "漱玉轩",
-      "open_threads": [],
+      "location": "慎刑司",
+      "open_threads": [
+        "受审"
+      ],
       "relationships": [
         "宁蘅：看她眼神冷",
         "青梧（林迟）：多事的女官"
       ],
-      "state": "取妆奁被拖住，夜里去东宫报信"
+      "state": "栽赃败露，私账被搜出，押入慎刑司"
     },
     "宁蘅": {
       "abilities_resources": [
@@ -57,7 +60,7 @@
         "孙嬷嬷：南楚跟来的嬷嬷",
         "元昭：未婚夫，当众称她人质"
       ],
-      "state": "装崴脚拖住孙嬷嬷，挑明自己看见了调包"
+      "state": "当众站出来，让青梧住近些"
     },
     "宋启年": {
       "abilities_resources": [
@@ -80,7 +83,7 @@
     },
     "林迟": {
       "abilities_resources": [
-        "系统5468面板：苦难值93、本世界报酬7万",
+        "系统5468面板：苦难值68、本世界报酬32万",
         "陪嫁女官身份与嫁妆册籍",
         "礼单与入库单抄件",
         "密信（藏在掌簿册封皮）",
@@ -94,11 +97,12 @@
         "原书结局：宁蘅第45天秋狩前夜被当细作赐死",
         "任务完成后72小时内必须离开"
       ],
-      "location": "北燕宫漱玉轩",
+      "location": "漱玉轩东耳房",
       "open_threads": [
         "异常数值6与「活」字",
         "宁蘅为什么会梦见她说过的话",
-        "怎么拆掉妆奁里的密信",
+        "另三箱使团自理是什么",
+        "太子盯上她",
         "81万为什么暂不兑付"
       ],
       "relationships": [
@@ -106,7 +110,7 @@
         "宁蘅：守了她三夜的公主",
         "嬷嬷：看公主眼神冷"
       ],
-      "state": "调包完成，等搜宫"
+      "state": "拆掉搜宫栽赃，被太子盯上"
     }
   },
   "context": {
@@ -127,19 +131,15 @@
       "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
     ],
     "next_chapter_commitments": [
-      "东宫奉太子令搜宫，从妆奁里搜出孙嬷嬷私账"
+      "宁蘅学看账；雷雨夜她装怕雷挤床，挡回东宫传人"
     ],
     "position": {
-      "scene": "漱玉轩内寝",
-      "story_time": "世界2第6天夜（死亡节点倒计时40天）",
+      "scene": "漱玉轩东耳房",
+      "story_time": "世界2第9天夜（死亡节点倒计时37天）",
       "volume": "第一卷·救完就走，绝不加班",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 21,
-        "summary": "宁蘅装咳留青梧守夜、挡开孙嬷嬷，林迟看穿「你这病，挑时辰」仍留下。亥时苦难值突跳到97，林迟量出十七号箱底差四寸，夹层里两块铅砖夹着一封「交公主亲启」的南楚密信。她没烧，原样放回当饵。"
-      },
       {
         "chapter": 22,
         "summary": "宁蘅私下画海棠，说她是替皇后亲女来和亲的，又说「梦里有人说我不用像谁」——正是林迟对温棠说过的话。林迟被詹事府叫去对册，亥时三刻苦难值跳到99；十七号箱里的密信不见了，小宫女证孙嬷嬷那时进过内寝，信已被挪进公主妆奁暗格。"
@@ -147,6 +147,10 @@
       {
         "chapter": 23,
         "summary": "林迟对出礼单128箱、入库单131箱，末行「另三箱，使团自理」；在孙嬷嬷针线笸箩下翻出私账，三笔共一千两。她把私账调进妆奁暗格、密信藏进掌簿册封皮。孙嬷嬷来取妆奁，宁蘅院里假装崴脚把她叫走。苦难值99→93，报酬7万（按历史最低值计件）。"
+      },
+      {
+        "chapter": 24,
+        "summary": "东宫奉太子令搜宫，孙嬷嬷跪下告发，却从妆奁暗格里搜出她自己的私账。林迟出列，拿掌簿册和宫门簿把三笔日子一一对上；宁蘅说「我试试」，孙嬷嬷被押去慎刑司。苦难值93→68，报酬32万。元昭盯上青梧；夜里驿马闯进宫城。"
       }
     ]
   },
@@ -321,12 +325,21 @@
       "status": "已埋",
       "summary": "礼单128箱、入库单131箱，末行「另三箱，使团自理，不入公主库」",
       "updated_chapter": 23
+    },
+    "F025": {
+      "id": "F025",
+      "importance": "中",
+      "planned_resolution_chapter": 25,
+      "planted_chapter": 24,
+      "status": "已埋",
+      "summary": "夜里驿马闯进北燕宫城",
+      "updated_chapter": 24
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 23,
+  "last_committed_chapter": 24,
   "schema_version": 4,
-  "state_revision": 25,
+  "state_revision": 26,
   "timeline": {
     "E001": {
       "characters": [
@@ -743,6 +756,22 @@
       "reveal_status": "已揭示",
       "story_time": "世界2第6天",
       "updated_chapter": 23
+    },
+    "E029": {
+      "characters": [
+        "林迟",
+        "宁蘅",
+        "孙嬷嬷",
+        "元昭"
+      ],
+      "first_recorded_chapter": 24,
+      "id": "E029",
+      "objective_fact": "搜宫搜出孙嬷嬷私账（收韦从简银两），孙嬷嬷押慎刑司；密信仍在青梧手里",
+      "reader_knowledge": "读者全知",
+      "reveal_chapter": 24,
+      "reveal_status": "已揭示",
+      "story_time": "世界2第9天",
+      "updated_chapter": 24
     }
   },
   "wordcount_records": {
@@ -933,6 +962,18 @@
         "min": 2000
       },
       "body_sha256": "0fe42f81c90ca4e618db99eef7a34157cab9f083836c1f0f6eb43a2ec9cd2c63",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2400
+    },
+    "24": {
+      "actual": 2245,
+      "author_range": {
+        "max": 2500,
+        "min": 2000
+      },
+      "body_sha256": "69194b5bdb8d8ebf12bebc52c023b049486fed905ae9e033e6ad198f401af9ab",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
