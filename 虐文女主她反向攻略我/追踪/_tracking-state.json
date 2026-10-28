@@ -53,10 +53,10 @@
         "只记得自己叫林迟",
         "原书结局：温棠第41天死在手术台",
         "配型排期已撤销、备份合约已作废",
-        "任务完成后72小时内必须离开，不可提前不可滞留",
+        "任务完成后72小时内必须离开",
         "剩下的苦难值有一部分在温棠自己身上",
-        "温棠欠陆家资助约30万，代课月入两千",
-        "陆家委托律所给温棠发了追讨资助款的律师函"
+        "陆家追讨温棠120万，限至第28天",
+        "化验单 eGFR 38，病历首页却写5期"
       ],
       "location": "栖湖苑许知意公寓",
       "open_threads": [
@@ -71,7 +71,7 @@
         "陆砚深：当面撕破，拒绝回老宅",
         "周敬：拆了他的代签"
       ],
-      "state": "和陆夫人撕破，苦难值仍72"
+      "state": "透析中，对周敬的诊断起疑，手机里存着两张照片"
     },
     "温棠": {
       "abilities_resources": [
@@ -97,7 +97,7 @@
         "陆砚深：资助协议的甲方，没认出卸了妆的她",
         "周敬：拿她的血做配型的医生"
       ],
-      "state": "拿到画廊赔付5040元，第一次说「第一笔钱」；主动要陪林迟透析"
+      "state": "第一次陪透析，坐在床边守倒计时；林迟第二次没躲开她的手"
     },
     "陆夫人": {
       "abilities_resources": [
@@ -162,19 +162,15 @@
       "女主红线：不伤害宿主、不囚禁、不拿自残要挟；双洁 1v1"
     ],
     "next_chapter_commitments": [
-      "明天透析日，温棠第一次陪林迟去血透中心"
+      "林迟向系统调原主国外诊断、翻行李箱找转诊件对账"
     ],
     "position": {
-      "scene": "松间画廊回程车上",
-      "story_time": "世界1第9天（死亡节点倒计时约33天）",
+      "scene": "安和医院三楼血透中心",
+      "story_time": "世界1第10天（死亡节点倒计时约32天）",
       "volume": "第一卷·救完就走，绝不加班",
       "volume_start_chapter": 1
     },
     "recent_chapters": [
-      {
-        "chapter": 5,
-        "summary": "陆砚深上门，第一眼没认出洗掉痣、换回旧卫衣的温棠；他提出许知意搬回陆家老宅、温棠回学校，林迟拒绝，算三十万资助买的是什么，说出「我不要任何人替我活」。陆砚深留下「我妈那边，不会就这么算了」。下午温棠签收受陆家委托的追讨资助款律师函。"
-      },
       {
         "chapter": 6,
         "summary": "律师函拆开：陆家按资助协议第七条追讨资助款30万加违约金90万共120万，限二十天；同日美院表白墙流言起、温棠被画室辞退。陆夫人电话里说「一个替身，这辈子都还不清陆家的钱」，温棠要去签分期，林迟按住她：「这钱她不欠。」夜里松间画廊通知退画。"
@@ -182,6 +178,10 @@
       {
         "chapter": 7,
         "summary": "林迟陪温棠去松间画廊拿画，老板宋启年当众羞辱「替身画的东西也配挂墙」，认出许小姐后变脸；林迟不买画，按寄售合同第五条逼他当场赔温棠5040元，画完好退还。苦难值仍72。"
+      },
+      {
+        "chapter": 8,
+        "summary": "透析日温棠第一次陪床，林迟拒绝掐她的手、又在她第二次伸手时没躲；林迟对着墙上的分期海报，发现化验单 eGFR 38（三期b）和周敬在病历首页写的「5期」差两档，按捺住没声张，客气要求拍照留了证。"
       }
     ]
   },
@@ -210,8 +210,8 @@
       "planned_resolution_chapter": null,
       "planted_chapter": 1,
       "status": "已埋",
-      "summary": "林迟慌时或失控后下意识摸后颈（第1、2章各一次）",
-      "updated_chapter": 2
+      "summary": "林迟慌时或失控后下意识摸后颈（第1、2、8章）",
+      "updated_chapter": 8
     },
     "F004": {
       "id": "F004",
@@ -239,6 +239,15 @@
       "status": "已埋",
       "summary": "温棠速写本里夹着藏下的那页初配报告，如今又夹进陆砚深亲笔作废的合约",
       "updated_chapter": 3
+    },
+    "F007": {
+      "id": "F007",
+      "importance": "高",
+      "planned_resolution_chapter": 11,
+      "planted_chapter": 8,
+      "status": "已埋",
+      "summary": "化验单 eGFR 38 落在三期b，病历首页周敬写「5期」，差两档；林迟已拍照留证",
+      "updated_chapter": 8
     },
     "F018": {
       "id": "F018",
@@ -269,9 +278,9 @@
     }
   },
   "imported_through_chapter": 0,
-  "last_committed_chapter": 7,
+  "last_committed_chapter": 8,
   "schema_version": 4,
-  "state_revision": 9,
+  "state_revision": 10,
   "timeline": {
     "E001": {
       "characters": [
@@ -447,6 +456,20 @@
       "reveal_status": "部分揭示",
       "story_time": "世界1第9天",
       "updated_chapter": 7
+    },
+    "E013": {
+      "characters": [
+        "林迟",
+        "周敬"
+      ],
+      "first_recorded_chapter": 8,
+      "id": "E013",
+      "objective_fact": "许知意化验单 eGFR 38（三期b），周敬病历首页写成5期；林迟拍照留证",
+      "reader_knowledge": "读者与林迟一起起疑，尚无结论",
+      "reveal_chapter": 8,
+      "reveal_status": "部分揭示",
+      "story_time": "世界1第10天",
+      "updated_chapter": 8
     }
   },
   "wordcount_records": {
@@ -529,6 +552,18 @@
         "min": 2000
       },
       "body_sha256": "682fe3c5f3f6f990a701ff14f05a5ae428ee6013646fa8b94daeb3160a9c43d6",
+      "metric": "visible_chars_v1",
+      "resolution": "within_user_band",
+      "status": "internal_pass",
+      "target": 2300
+    },
+    "8": {
+      "actual": 2444,
+      "author_range": {
+        "max": 2500,
+        "min": 2000
+      },
+      "body_sha256": "018e1c3cf4977345538072e1c634cb63aa475f5d8ce1973bee466f93240f590d",
       "metric": "visible_chars_v1",
       "resolution": "within_user_band",
       "status": "internal_pass",
